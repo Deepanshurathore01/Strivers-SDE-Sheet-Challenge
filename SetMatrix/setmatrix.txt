@@ -1,0 +1,7 @@
+Approch : 
+ Step 1: Traverse the matrix and mark 1st row & col accordingly.
+ Step 2: Mark with 0 from (1,1) to (n-1, m-1).
+ Step 3: Finally mark the 1st col & then 1st row.
+
+ Time Complexity : O(2(m*n))
+ Space Complexity : O(1);
