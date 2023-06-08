@@ -1,0 +1,19 @@
+Approcah 
+1. first we declare and intialize a counter variable with 0 and an element variable.
+2.iterate the array through for loop and check the conditions :-
+   if (cnt == 0) {
+            cnt = 1;
+            el = v[i];
+        }
+        else if (el == v[i]) cnt++;
+        else cnt--;
+
+3. Now check if the sorted element is the majority elment. so we initialize the counter again with zero value and iterate the array for check the condition 
+  if(arr[i] == ele) increment the counter by one.
+
+4 at the last chek :-
+ if (cnt1 > (n / 2)) return el;
+    return -1;  
+
+Time Complexity : O(N)+O(N) for iterate using for loop 2times
+Space Complexity : O(1) Because we didn't use any extyra space   
