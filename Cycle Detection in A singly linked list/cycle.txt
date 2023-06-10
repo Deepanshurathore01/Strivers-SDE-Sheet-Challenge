@@ -1,0 +1,7 @@
+Approch : 2 pointer approch (turtois algorithm)
+1.we initialize a two pointers slow and fast to head.
+2.then we iterate through the loop.
+3.movew slow pointer a step ahen and fast pointer tow step ahed and compare if fast ==slow so return true else return false .
+
+tc : o(n)
+sc:o(1) 
