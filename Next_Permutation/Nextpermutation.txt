@@ -1,0 +1,8 @@
+Approch : 
+1. we find a break point in the array and divided it into two parts, if break point does'nt exist
+then reverse the whole array and retur it.
+2. find the next greaater element in the array and swap it with arr[index].
+3.reverse the right half of the array.
+
+Time Complextiy: O(3N)
+Space Complextiy: O(1)
