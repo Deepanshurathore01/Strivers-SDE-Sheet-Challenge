@@ -1,0 +1,45 @@
+Brute force : 
+1. count the total number of nodes.
+2.one more traversal to reach the middle node.
+
+ int getMiddle(Node *head)
+    {
+        // Your code here
+        int count = 1 ;
+    Node *ptr = head ;
+        while(ptr->next != NULL)
+        {
+           ptr = ptr->next ;
+           count++;
+        }
+        int x = count/2 + 1 ;
+        ptr = head;
+        for(int i = 1 ; i<x ; i++)
+        {
+            ptr = ptr->next ;
+        }
+        return ptr->data;
+    }
+
+tc : o(n) +o(n/2)
+sc : o(1)
+
+
+
+tuortle method :
+optimize solution :  create two pinter slow and fast and iterate through thi while loop  when fast not ! null && fast->netx not =null .at the end return slow because it reaches till the middle element.
+
+// Time COmplexity : O(n/2);
+// Space Complexity : O(1);
+
+class Solution {
+public:
+    ListNode* middleNode(ListNode* head) {
+        ListNode* slow =head;
+        ListNode* fast=head;
+        while(fast !=nullptr && fast->next !=nullptr){
+            slow=slow->next;
+            fast =fast->next->next;
+        }
+        return  slow;
+    }
