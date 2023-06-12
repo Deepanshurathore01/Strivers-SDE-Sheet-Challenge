@@ -1,0 +1,10 @@
+Approch : 
+1.declare and intialize a sum ,maxi variable  with 0 and another three wariables 
+start ansStart ,endStart =-1;
+2.iterate through the loop and check the following conditions 
+ sum +=arr[i];
+ if(sum>maxi){
+  maxi =sum;
+  
+ }
+ 3. at the end return the maxi
