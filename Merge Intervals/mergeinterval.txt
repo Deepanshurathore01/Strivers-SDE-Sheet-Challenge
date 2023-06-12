@@ -1,0 +1,9 @@
+1. sort the intervals.
+2. then create a 2d vector and iterate through the loop and check the conditions 
+ if (merged.empty() || merged.back()[1] < intervals[i][0]) then push it into a vextor v 
+ and push the v in merge array
+3.else find the max in the intervals elemnts.
+4. return the merge array.
+
+Time Complexity : O(nlog n)+O(n)
+space Coplexity : O(n)
