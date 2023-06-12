@@ -1,0 +1,5 @@
+1. firstly we check if the linked list is empty or not if head-> next point to null 
+then it is empty so return the head.
+2.Now we create a node rest and call a recursive function.
+3.then points  head->next->next =head and head->next =NULL; 
+ and return the linked list 
