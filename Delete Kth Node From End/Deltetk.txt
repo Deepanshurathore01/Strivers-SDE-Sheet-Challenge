@@ -1,0 +1,9 @@
+Optimized solution :
+1. create a dummy node points towards the dummy of next and create two pointer fast and slow.
+2.iterate a loop till the and and move the fast pointer .
+3. iteate another loop while fast !=Null move a slow and fast pointer ahead one step.
+then it reaches the node which were delete so move solw pointer next to next.
+4. return the dummy-netx;
+
+tc:0(n)
+sc: O(1)
