@@ -1,0 +1,5 @@
+
+1 create a dummy node and a temp node .
+2. itereate through the loop while l1 ,l2 not equal to null.
+3. initialize to variables sum and carry.
+4. check if(l1 1=NULL)sum+=num->data 
